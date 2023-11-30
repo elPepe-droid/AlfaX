@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+}
+
+header {
+    padding: 10px;
+    text-align: left;
+    font-size: 50px;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+}
+
+.title{
+    font-size: 75px;    
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para las secciones de noticias */
+h2 {
+    color: #333;
+    border-bottom: 5px solid #333;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Estilos para los cursos de HTML */
+h3 {
+    color: #333;
+}
+
+h6 {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los futuros cursos */
+h6 p {
+    margin-bottom: 5px;
+}
+
+/* Añade más estilos según sea necesario */
+
+nav{
+    background-color: #333;
+    padding: 1em;
+}
+
+a{
+    text-decoration: none;
+    padding: 1em;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li::before {
+    content: "-";
+    margin-right: 8px;
+}
+
+.course-container{
+    background-color: #cacaca;
+    max-width: 20em;
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    margin-left: 50px;
+}
+
+.course-container:hover{
+    transform: scale(1.1);
+    background-color: #a09f9f;
+}
+
+.course-container a{
+    color: #333;
+}
+
+.precio{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    max-width: 5%;
+    border-radius: 100px;
+}
+
+.rightAligned{
+    text-align: right;
+    padding: 2em;
+}
+
+.contacto{
+    color: #3a3a3a;
+}
